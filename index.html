@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./assets/logo.png"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="navopt" id="navopt1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="navopt">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <!-- start of library section of sidebar -->
+            <div class="library">
+                <div class="lib-option">
+                    <div class="library-opt navopt">
+                        <img src="./assets/library_icon.png" alt="library icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist </p>
+                        <p class="box-p2">it's easy,we'll help you</p>
+                        <button class="badge">Create playlist </button>
+                    </div>
+                    <div class="box2">
+                        <p class="box-p1">Let's find some podcasts to follow </p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge2">Browse podcasts </button>
+                    </div>
+                    <div class="lib-foot">
+                        <div class="lib-foot-2">
+                            <div class="foot-opt-cont">
+                                <div class="opt"><a href="#">Legal</a></div>
+                                <div class="opt"><a href="#">Safety & Privacy Center</a></div>
+                                <div class="opt"><a href="#">Privacy Policy</a></div>
+                                <div class="opt"><a href="#">Cookies</a></div>
+                                <div class="opt"><a href="#">About Ads</a></div>
+                                <div class="opt"><a href="#"></a>Accessibility</div>
+                            </div>
+                            <a href="#" id="cookies">Cookies</a>
+                        </div>
+                        <button class="lang">English</button>
+                        <div class="langlast"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- start of main content area -->
+         <!-- ist we make main content sticky nav bar  -->
+        <div class="main-content">
+            <div class="sticky-navbar">
+                <div class="nav-left">
+                    <button class="left"><img src="./assets/backward_icon.png" alt="backward_icon"></button>
+                    <button class="left hide"><img src="./assets/forward_icon.png" alt="forward_icon"></button>
+                </div>
+                <div class="nav-right">
+                    <button class="right1 hide">Explore Premium </button>
+                    <button class="right2"><i class="fa-regular fa-circle-down"></i> Install App</button>
+                    <div class="user-icon"><i class="fa-regular fa-user"></i></div>
+                </div>
+            </div>
+            <!-- start making music cards in main content  -->
+
+            <!-- ist row -->
+
+            <div class="main-card-container">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd row  -->
+
+            <div class="main-card-container">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3rd row  -->
+
+            <div class="main-card-container">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4th row -->
+
+            <div class="main-card-container">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5th row -->
+
+            <div class="main-card-container">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- last row -->
+
+            <div class="main-card-container">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="img">
+                        <p class="card-tittle">Top 50 - Global</p>
+                        <p class="card-bio">Your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+            <!-- start of music player  -->
+        <div class="music-player">
+
+            <!-- start op album section  -->
+
+            <div class="album">
+                <div class="album-img"><img src="./Homework Assets/album_picture.jpeg" alt="image"></div>
+                <div class="album-name">
+                    <P class="song-name">Nanchaku</P>
+                    <P class="artist">Seedhe Maut</P>
+                </div>
+                <div class="album-like"><button><img src="./Homework Assets/album_icon1.png" alt="image"></button></div>
+            </div>
+
+            <!-- start of player section  -->
+
+            <div class="player">
+                <div class="player-control">
+                    <img src="./assets/player_icon1.png" alt="img" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" alt="img" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" alt="img" class="player-control-icon-p">
+                    <img src="./assets/player_icon4.png" alt="img" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" alt="img" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" step="1" value="0" class="proggres-bar">
+                    <span class="total-time">3:33</span>
+                </div>
+            </div>
+
+            <!-- start of control pannel section  -->
+            <div class="controls">
+                <div class="control-div">
+                    <img src="./Homework Assets/controls_icon1.png" alt="" class="control-btn1">
+                    <img src="./Homework Assets/controld_icon2.png" alt="" class="control-btn2">
+                    <img src="./Homework Assets/controls_icon3.png" alt="" class="control-btn3">
+                    <img src="./Homework Assets/controls_icon4.png" alt="" class="control-btn4">
+                        <div class="soundbar"><img src="./Homework Assets/controls_icon5.png" alt="" class="control-btn5">
+                       <input type="range" step="1" value="100" name="music-volum" class="music-volum">
+                        </div>
+                </div>
+            </div>
+        </div>
+                 <!-- music-player done  -->
+    </div>
+
+                    <!-- home page done  -->
+    
+</body>
+</html>
+
+
